@@ -1,7 +1,7 @@
 Presentation of the body mass index calculation tool
 ========================================================
 author: Ugo Lancia
-date: Fri Jan 15 19:38:00 2016
+date: Fri Jan 15 20:13:01 2016
 
 First Slide
 ========================================================

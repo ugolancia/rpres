@@ -1,54 +1,46 @@
 Presentation of the body mass index calculation tool
 ========================================================
 author: Ugo Lancia
-date: Fri Jan 15 20:13:01 2016
+date: Sat Jan 16 10:41:41 2016
 
-First Slide
+General outline
 ========================================================
 
-In my first shiny project I'd want to create something useful
+- In my first shiny project I'd want to create something simple but useful
+- Screening test are very important tools inthe public health field
+- These test are not meant to do diagnosis, but to spot some potential risky situation
+- One well recognized risk situation is when your body mass index is out of boundaries
 
 ===
 
-## What is Body Mass Index
+## What is Body Mass Index (BMI)
+- It is a very simple way to spot potential problem
+- Even if it is not fine tuned, could clearly indicate something to investigate further
+- Too lower or to high BMI carry significant health implication
+- Often, to be again on track with your BMI, behavioural modifications are sufficient
 
 ===
-transition: rotate
+
 ## How BMI is calculated
 
-It's a very simple formula relating your weight (in kilos) to your height squared (in meters)
+It's a very simple formula relating your weight (in kilos) to your height (in meters)
 
 $$\frac{w}{h^2}$$
 
 
+===
+
+##How to calculate your index with my web app
+
+- simply go to https://ugolancia.shinyapps.io/bmi_calculation/
+- insert you weight in Kilograms 
+- push the submit button
+- verify that you imput is correctly displayed aside
+- repeat the same process for your height in centimeters
+- read your BMI
+- look carefully in the text below if you're at risk
+- if you are at risk go to your doctor
 
 
 
 
-
-- Bullet 1
-- Bullet 2
-- Bullet 3
-
-Slide With Code
-========================================================
-
-
-```r
-summary(cars)
-```
-
-```
-     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
-```
-
-Slide With Plot
-========================================================
-
-![plot of chunk unnamed-chunk-2](first_rpresent-figure/unnamed-chunk-2-1.png) 

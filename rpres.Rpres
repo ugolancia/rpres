@@ -1,0 +1,46 @@
+Presentation of the body mass index calculation tool
+========================================================
+author: Ugo Lancia
+date: `r date()`
+
+General outline
+========================================================
+
+- In my first shiny project I'd want to create something simple but useful
+- Screening test are very important tools in the public health field
+- These test are not meant to do diagnosis, but to spot some potential risky situation
+- One well recognized risk situation is when your body mass index is out of boundaries
+
+===
+
+## What is Body Mass Index (BMI)
+- It is a very simple way to spot potential problem
+- Even if it is not fine tuned, could clearly indicate something to investigate further
+- Too lower or to high BMI carry significant health implication
+- Often, to be again on track with your BMI, behavioural modifications are sufficient
+
+===
+
+## How BMI is calculated
+
+It's a very simple formula relating your weight (in kilos) to your height (in meters)
+
+$$\frac{w}{h^2}$$
+
+
+===
+
+## How to calculate your index with my web app
+
+- simply go to https://ugolancia.shinyapps.io/bmi_calculation/
+- insert you weight in Kilograms 
+- push the submit button
+- verify that you imput is correctly displayed aside
+- repeat the same process for your height in centimeters
+- read your BMI
+- look carefully in the text below if you're at risk
+- if you are at risk go to your doctor
+
+
+
+

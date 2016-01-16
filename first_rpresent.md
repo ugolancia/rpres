@@ -1,13 +1,13 @@
 Presentation of the body mass index calculation tool
 ========================================================
 author: Ugo Lancia
-date: Sat Jan 16 10:41:41 2016
+date: Sat Jan 16 10:45:55 2016
 
 General outline
 ========================================================
 
 - In my first shiny project I'd want to create something simple but useful
-- Screening test are very important tools inthe public health field
+- Screening test are very important tools in the public health field
 - These test are not meant to do diagnosis, but to spot some potential risky situation
 - One well recognized risk situation is when your body mass index is out of boundaries
 
@@ -30,7 +30,7 @@ $$\frac{w}{h^2}$$
 
 ===
 
-##How to calculate your index with my web app
+## How to calculate your index with my web app
 
 - simply go to https://ugolancia.shinyapps.io/bmi_calculation/
 - insert you weight in Kilograms 
